@@ -11,7 +11,7 @@ cert_issuer = "Non Valid Test Certificate"
 time_to_live = 180 * 24 * 3600  # validity period of cert, default 180 days
 issuing_country = "XX"  # two letter country code
 keyid = '01234567'  # first 8 hex values of SHA256 fingerprint of signing certificate, not relevant for test
-# Private Signature Key for ecdsa-with-SHA256 in PEM format for test certificate without password protection
+# Private Signature Key for ecdsa-with-SHA256 for test certificate without password protection
 # AS THIS IS JUST USED FOR PUBLIC TESTING IT IS NOT CRITICAL TO HAVE THIS PRIVATE KEY IN THIS CODE #
 pem = b'-----BEGIN EC PRIVATE KEY-----\n' \
       b'MHcCAQEEIICXhlDKAkd37q3LEtYmjoCuaIvne9/FzV0BClH2X52AoAoGCCqGSM49\n' \
