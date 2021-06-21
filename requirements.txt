@@ -1,0 +1,7 @@
+base45==0.2.0
+qrcode==6.1
+Pillow==8.2.0
+cbor2==5.4.0
+cose==0.9.dev7
+cryptography==3.4.7
+unidecode==1.2.0
