@@ -14,7 +14,7 @@ By adapting the variables on top of the code you can easily create certificates 
 By following the text output of the program you can see the different encoding steps for needed for certificate creation.
 
 ### Creating Own Signing Key
-In case you want to use an other sigining key you can import an ECDSA signing key in PEM format, e.g. by creating it via Open SSL:
+In case you want to use an other sigining key you can import an ECDSA signing key in PEM format, e.g. by creating it via Open SSL:  
 `openssl ecparam -name prime256v1 -genkey -noout -out sign.key`
 
 ## Credits
