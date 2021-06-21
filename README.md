@@ -11,9 +11,11 @@ The code was tested under Python 3.8.
 You just need to run the Python script and QR code will be shown.
 By adapting the variables on top of the code you can easily create certificates as needed for testing purpose.
 
+By following the text output of the program you can see the different encoding steps for needed for certificate creation.
+
 ### Creating Own Signing Key
 In case you want to use an other sigining key you can import an ECDSA signing key in PEM format, e.g. by creating it via Open SSL:
-openssl ecparam -name prime256v1 -genkey -noout -out sign.key
+`openssl ecparam -name prime256v1 -genkey -noout -out sign.key`
 
 ## Credits
 Code snippets for creating the certificate have been taken from [Dirk-Willem van Gulik](https://github.com/dirkx) of his repo [ehn-sign-verify-python-trivial](https://github.com/ehn-dcc-development/ehn-sign-verify-python-trivial)
